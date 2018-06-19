@@ -45,7 +45,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
   gem 'pg', '1.0.0'
-  
+
+  gem 'byebug'
+
 end
 
 group :development do
